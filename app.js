@@ -25,7 +25,7 @@ app.get('/', function (req, res) {
     res.render('index')
 })
 
-app.get('/', function (req, res) {
+app.get('/test_database', function (req, res) {
     let result_str_to_save = `INSERT INTO user_access_list (username, name_guest) VALUES ('${req.query.login_tg}', '${req.query.name_guest}');`
 
     pool.connect(function (err, client, done) {
