@@ -14,4 +14,16 @@ app.get('/', function (req, res) {
     res.render('index')
 })
 
+app.get('/edite', function (req, res) {
+    res.render('edite')
+})
+
+app.get('/serch', function (req, res) {
+    res.render('serch')
+})
+
+app.get('/users', function (req, res) {
+    res.render('users')
+})
+
 app.listen(3000, console.log('Server work on port 3000'));
