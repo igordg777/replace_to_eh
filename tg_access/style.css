@@ -1,0 +1,120 @@
+header>a {
+    text-decoration: none;
+}
+
+.form_auth_block {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background: url("https://obj-stor1.zhilibyli.ru/images/hotels/51086/6700a9aa8ec747974d40a432ac1874f6.png");
+    background-size: cover;
+    border-radius: 4px;
+}
+
+.form_auth_block_content {
+    padding-top: 15%;
+}
+
+.form_auth_block_head_text {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #ffffff;
+    opacity: 0.7;
+}
+
+.form_auth_block label {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: #ffffff;
+    opacity: 0.7;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form_auth_block input {
+    display: block;
+    margin: 5px auto;
+    width: 80%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+input:focus {
+    color: #000000;
+    border-radius: 10px;
+    border: 2px solid #436fea;
+}
+
+.form_auth_button {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #3f3f44;
+    padding-left: 10px;
+}
+
+/* // Это стили для placeholder */
+::-moz-placeholder {
+    color: #3f3f44;
+    padding-left: 10px;
+}
+
+/* // Это стили для placeholder */
+:-moz-placeholder {
+    color: #3f3f44;
+    padding-left: 10px;
+}
+
+/* // Это стили для placeholder */
+:-ms-input-placeholder {
+    color: #3f3f44;
+    padding-left: 10px;
+}
+
+/* Это стили для placeholder     */
+/* 
+.block-polsovateli {
+    font-style: ;
+} */
+.nav {
+    border: 2px solid rgb(30, 0, 255);
+    height: 150px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.spisok {
+    border: 2px solid rgb(204, 0, 255);
+    width: 600px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.th_info {
+    width: 150px;
+}
+
+.table_search {
+    width: 90%;
+    margin: 0 auto;
+}
